@@ -5,9 +5,19 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.10",
+    "einops>=0.8.2",
+    "flash-linear-attention==0.5.2",
+    "huggingface-hub>=1.0",
     "jupyterlab>=4.6.4",
+    "opencv-python-headless>=5.0.0.93",
     "pandas>=3.0.6",
+    "pillow>=10",
+    "requests>=2.34.2",
+    "safetensors>=0.6",
     "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "transformers==5.17.0",
 ]
 
 [project.scripts]
